@@ -49,7 +49,7 @@ public class RadixSort {
             count[digit]--;
         }
 
-        // Copy back to original array
+        // Copy back to original arr
         System.arraycopy(output, 0, arr, 0, n);
     }
 
